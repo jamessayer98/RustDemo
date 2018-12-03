@@ -3,4 +3,13 @@ name = "some_rust"
 version = "0.1.0"
 authors = ["felixhao <guanguan241@gmail.com>"]
 
+[lib]
+name = "somerust"
+path = "src/lib.rs"
+
+[[bin]]
+name = "somebin"
+path = "bin/main.rs"
+
 [dependencies]
+rand = "0.5.0"
