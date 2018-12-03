@@ -133,3 +133,13 @@ pub fn some_list() {
     println!("list len:{}", list.len());
     println!("list string:{}", list.stringify());
 }
+
+static WOMEN: &'static str = "women";
+const THRESHOLD: i32 = 1;
+
+pub fn some_const() {
+    println!("women:{}", WOMEN);
+    if 2 > THRESHOLD {
+        println!("threshold:{}", THRESHOLD);
+    }
+}
