@@ -73,4 +73,11 @@ pub fn some_matchs() {
         n @ 1...20 => println!("jiushizheli {}", n),
         _ => println!("haha"),
     }
+
+    let num = Some(7);
+    if let Some(i) = num {
+        println!("let some {}", i);
+    } else {
+        println!("let some error");
+    }
 }
