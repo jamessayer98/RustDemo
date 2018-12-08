@@ -2,8 +2,9 @@ extern crate somerust;
 
 // use somerust::guess;
 // use somerust::types;
-use somerust::flow;
-use somerust::matchs;
+// use somerust::flow;
+// use somerust::matchs;
+use somerust::closure;
 
 fn main() {
     // guess::guessit();
@@ -12,7 +13,8 @@ fn main() {
     // types::some_enum();
     // types::some_list();
     // types::some_const();
-    flow::ifelse();
-    flow::some_loop();
-    matchs::some_matchs();
+    // flow::ifelse();
+    // flow::some_loop();
+    // matchs::some_matchs();
+    closure::some_closure();
 }
