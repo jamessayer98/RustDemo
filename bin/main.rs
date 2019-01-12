@@ -4,7 +4,8 @@ extern crate somerust;
 // use somerust::types;
 // use somerust::flow;
 // use somerust::matchs;
-use somerust::closure;
+// use somerust::closure;
+use somerust::gen;
 
 fn main() {
     // guess::guessit();
@@ -16,5 +17,6 @@ fn main() {
     // flow::ifelse();
     // flow::some_loop();
     // matchs::some_matchs();
-    closure::some_closure();
+    // closure::some_closure();
+    gen::some_gen();
 }

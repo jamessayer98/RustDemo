@@ -62,7 +62,7 @@ impl Display for List {
             if count != 0 {
                 write!(f, ",")?;
             }
-            try!(write!(f, "{}", v));
+            write!(f, "{}", v)?;
         }
         write!(f, "]")
     }
